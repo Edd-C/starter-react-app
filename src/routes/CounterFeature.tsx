@@ -1,9 +1,7 @@
-import React from "react";
-import logo from "./images/logo.svg";
-import { Counter } from "./features/counter/Counter";
-import "./theme/App.scss";
+import logo from "../images/logo.svg";
+import { Counter } from "../features/counter/Counter";
 
-function App() {
+function CounterFeature() {
   return (
     <div className="App">
       <header className="App-header">
@@ -55,4 +53,4 @@ function App() {
   );
 }
 
-export default App;
+export default CounterFeature;
